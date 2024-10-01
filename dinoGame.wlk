@@ -79,14 +79,16 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
+		position=position.left(1)
 	}
 	
 	method chocar(){
-		//COMPLETAR
-	}
+		game.onCollideDo(self, {elemento => elemento.morir()})
+		self.detener()
+		}
     method detener(){
-		//COMPLETAR
+		game.removeTickEvent("moverCactus")
+		game.stop()
 	}
 }
 
