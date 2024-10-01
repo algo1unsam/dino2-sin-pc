@@ -56,14 +56,16 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		if(dino.estaVivo()){
+			tiempo+=1
+		}
 	}
 	method iniciar(){
 		tiempo = 0
-		game.onTick(100,"tiempo",{self.pasarTiempo()})
+		game.onTick(1000,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		tiempo = 0	
 	}
 }
 
@@ -106,7 +108,8 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		//COMPLETAR
+		self.subir()
+		game.schedule(1000, { self.bajar() })
 	}
 	
 	method subir(){
