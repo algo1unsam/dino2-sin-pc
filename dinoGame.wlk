@@ -40,6 +40,7 @@ object juego{
 		cactus.detener()
 		reloj.detener()
 		dino.morir()
+		game.schedule(2000, {game.stop()})
 	}
 	
 }
@@ -65,11 +66,11 @@ object reloj {
 		game.onTick(1000,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		tiempo = 0	
+		tiempo = 0	//El tiempo cuando se detiene vuelve a 0
 	}
 }
 
-object cactus {
+object cactus { //agregar más cactus
 	var property position = self.posicionInicial()
 
 	method image() = "cactus.png"
@@ -77,7 +78,7 @@ object cactus {
 
 	method iniciar(){
 		position = self.posicionInicial()
-		game.onTick(velocidad,"moverCactus",{self.mover()})
+		game.onTick(velocidad,"moverCactus",{self.mover()}) //Aumentar velocidad?
 	}
 	
 	method mover(){
@@ -89,12 +90,10 @@ object cactus {
 	}
 	
 	method chocar(){
-		game.onCollideDo(self, {elemento => elemento.morir()})
-		self.detener()
+		juego.terminar()
 		}
     method detener(){
 		game.removeTickEvent("moverCactus")
-		game.stop()
 	}
 }
 
