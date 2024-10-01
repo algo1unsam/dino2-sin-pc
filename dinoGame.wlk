@@ -65,6 +65,7 @@ object reloj {
 		game.onTick(1000,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
+		game.removeTickEvent("tiempo")
 		tiempo = 0	//El tiempo cuando se detiene vuelve a 0
 	}
 }
