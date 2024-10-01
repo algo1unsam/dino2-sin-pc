@@ -65,7 +65,7 @@ object reloj {
 	}
 	method detener(){
 		game.removeTickEvent("tiempo")	
-		tiempo = 0
+		tiempo = 0//
 	}
 }
 

@@ -906,3 +906,5 @@
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":101,"timestamp":"2024-10-01T22:15:18.950Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":120,"timestamp":"2024-10-01T22:15:42.930Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/dino2-sin-pc","timeElapsed":475267,"timestamp":"2024-10-01T22:20:08.753Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":115,"timestamp":"2024-10-01T22:41:12.606Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":116,"timestamp":"2024-10-01T22:41:12.724Z"}
