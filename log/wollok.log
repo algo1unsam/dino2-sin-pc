@@ -2225,3 +2225,6 @@
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/datascience/dino2-sin-pc","timeElapsed":223309,"timestamp":"2024-10-01T21:51:53.403Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":109,"timestamp":"2024-10-01T21:52:47.325Z"}
 >>>>>>> 29196840409779ee0007d6f02acde1d4b4895fa7
+{"exitCode":0,"level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\gonza\\OneDrive\\Documentos\\PROYECTOS\\ALGO1\\Clase6Dinojuego\\dino2-sin-pc","timeElapsed":4110,"timestamp":"2024-10-01T22:08:39.001Z"}
+{"exitCode":0,"level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\gonza\\OneDrive\\Documentos\\PROYECTOS\\ALGO1\\Clase6Dinojuego\\dino2-sin-pc","timeElapsed":4086,"timestamp":"2024-10-01T22:09:47.512Z"}
+{"exitCode":0,"level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\gonza\\OneDrive\\Documentos\\PROYECTOS\\ALGO1\\Clase6Dinojuego\\dino2-sin-pc","timeElapsed":11740,"timestamp":"2024-10-01T22:12:13.345Z"}
